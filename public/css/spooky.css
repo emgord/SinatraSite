@@ -20,21 +20,29 @@
  * file. The "public" part of the path should *not* be included.
  */
 
-body { background-color: #E68A2E;
+ @import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
+body { background-color: black;
       font-family: "Arial", Gadget, sans-serif;
       position: relative;
       margin-left: auto;
       margin-right: auto;
       width: 960px;
-      color: #5D4C46;
+      color: black;
 
 }
 
+.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+}
 
 h1 {
-  font-family: "Impact", Charcoal, sans-serif;
-  color: #F2635F;
-  background-color: #F4D00C;
+  font-family: "Calligraffitti", sans-serif;
+  color: black;
+  background-color: #E68A00;
   border-radius: 10px;
   margin: 50px;
   padding: 30px;
@@ -43,22 +51,18 @@ h1 {
 
   }
 
-.navigation_back {
-  background-color: #B2D0DF;
+article {
+  background-color: #E66916;
   border-radius: 10px;
   margin: 10px 50px;
   padding: 30px;
-  font-size:1em;
-
+  font-size:1.5em;
 
   }
 
-  nav {
-      line-height: 30px;
-  }
 
   footer {
-    background-color: #F4D00C;
+    background-color: #E68A00;
     border-radius: 10px;
     margin: 50px;
     padding: 30px;
@@ -67,47 +71,11 @@ h1 {
   }
 
   footer a:link {
-    color: #5D4C46;
+    color: #3333CC;
     text-decoration: none;
   }
 
   footer a:visited {
-    color: #00AAA0;
+    color: #7519D1;
     text-decoration: none;
   }
-
-ul a:link {
-   color: #5D4C46;
-   text-decoration: none;
-
- }
-
- ul a:visited {
-
-   color: #660066;
-   text-decoration: none
-
-
- }
-
-ul a:hover {
-
-  font-size: 150%;
-  text-decoration: none;
-
-}
-
-table {
-   border="1";
-   border-color: red
-
-
-
-}
-
-th {
-  font-family: cursive;
-  font-style: strong;
-  background-color: #B84DFF;
-  border-collapse: collapse;
-}
