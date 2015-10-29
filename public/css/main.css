@@ -1,0 +1,113 @@
+/*
+ * This is a CSS file.
+ * Inside of CSS files comments are started with /* and ended with:
+ */
+
+/*
+ * Starting with Wave 2 of this project we will be using CSS to style our
+ * web pages. You should place all of your styles in this file and then
+ * reference it from each of your HTML files.
+ */
+
+/*
+ * This file is located at "public/main.css" in your project directory.
+ * Because it is in the "public" directory, Sinatra knows to make the file
+ * accessible to your HTML files when you use the src="path/to/file"
+ * attribute on the appropriate tags.
+ *
+ * For example, to include an image into your site, place the file in the
+ * public directory and use <img src="/name_of_image.png"> in your HTML
+ * file. The "public" part of the path should *not* be included.
+ */
+
+body { background-color: #004C70;
+      font-family: "Arial", Gadget, sans-serif;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      width: 960px;
+      color: #5D4C46;
+
+}
+
+
+h1 {
+  font-family: "Impact", Charcoal, sans-serif;
+  color: #F2635F;
+  background-color: #F4D00C;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 30px;
+  font-size:3em;
+  text-align: center;
+
+  }
+
+.navigation_back {
+  background-color: #B2D0DF;
+  border-radius: 10px;
+  margin: 10px 50px;
+  padding: 30px;
+  font-size:1em;
+
+
+  }
+
+  nav {
+      line-height: 30px;
+  }
+
+  footer {
+    background-color: #F4D00C;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px;
+    font-size:1.5em;
+    text-align: center;
+  }
+
+  footer a:link {
+    color: #5D4C46;
+    text-decoration: none;
+  }
+
+  footer a:visited {
+    color: #00AAA0;
+    text-decoration: none;
+  }
+
+ul a:link {
+   color: #5D4C46;
+   text-decoration: none;
+
+ }
+
+ ul a:visited {
+
+   color: #660066;
+   text-decoration: none
+
+
+ }
+
+ul a:hover {
+
+  font-size: 150%;
+  text-decoration: none;
+
+}
+
+table {
+   border="1";
+   border-color: red
+
+
+
+}
+
+th {
+  font-family: cursive;
+  font-style: strong;
+  background-color: #B84DFF;
+  border-collapse: collapse;
+}
