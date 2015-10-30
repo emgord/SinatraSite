@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Spooky Castle</title>
+    <meta charset = "utf-8">
+    <meta name="description" content="Visit the Spooky Castle">
+    <link href="css/spooky.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1><%= @header %></h1>
+    </header>
+    <article>
+      <%= yield %>
+      <nav>
+        <a id="door1" href="/room1.html"><img src="spookydoor.jpg" alt=Room 1 /></a>
+        <a id="door2" href="/room2.html"><img src="spookydoor3.jpg" alt=Room 2 /></a>
+        <a id="door3" href="/room3.html"><img src="spookydoor4.jpg" alt=Room 3 /></a>
+        <a id="door4" href="/room4.html"><img src="spookydoor2.jpg" alt=Room 4 /></a>
+      </nav>
+    </article>
+    <footer>
+      <a href="/spookycastle.html">Return to the Spooky Castle</a>
+    </footer>
+  </body>
+</html>
