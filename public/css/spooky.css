@@ -29,14 +29,6 @@ body { background-color: black;
       margin-right: auto;
       width: 960px;
       color: black;
-
-}
-
-.center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-
 }
 
 h1 {
@@ -57,14 +49,15 @@ article {
   margin: 10px 50px;
   padding: 30px;
   font-size:1.5em;
+  text-align: center;
 
   }
-
 
   nav {
-    margin: 50px;
+    text-align: center
 
   }
+
   nav div {
     background-color: #E68A00;
     border-radius: 10px;
