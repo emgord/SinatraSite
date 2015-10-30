@@ -12,15 +12,31 @@
     </header>
     <article>
       <%= yield %>
-      <nav>
+      <div>
         <a id="door1" href="/room1.html"><img src="spookydoor.jpg" alt=Room 1 /></a>
         <a id="door2" href="/room2.html"><img src="spookydoor3.jpg" alt=Room 2 /></a>
         <a id="door3" href="/room3.html"><img src="spookydoor4.jpg" alt=Room 3 /></a>
         <a id="door4" href="/room4.html"><img src="spookydoor2.jpg" alt=Room 4 /></a>
-      </nav>
+      </div>
     </article>
+    <nav>
+      <div>
+        <a href="/room<%= (@room == 1 || @room = 0) ? (4) : (@room - 1) %>.html">Previous Room</a>
+      </div>
+      <div>
+        <a href="/room<%= (@room == 4 || @room = 0) ? (1) : (@room + 1) %>.html">Next Room</a>
+      </div>
+      <div>
+        <a href="/room<%= rand(1..4) %>.html">Random Room</a>
+      </div>
+      <div>
+        <a href="/spookycastle.html">Back to the Spooky Castle</a>
+      </div>
+    </nav>
+
     <footer>
-      <a href="/spookycastle.html">Return to the Spooky Castle</a>
+      Copyright <%= Time.now.year %>
     </footer>
+
   </body>
 </html>

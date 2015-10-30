@@ -61,21 +61,33 @@ article {
   }
 
 
-  footer {
+  nav {
+    margin: 50px;
+
+  }
+  nav div {
     background-color: #E68A00;
     border-radius: 10px;
-    margin: 50px;
-    padding: 30px;
-    font-size:1.5em;
+    margin: 25;
+    padding: 15px;
+    font-size:1em;
     text-align: center;
+    display: inline-block;
+    border: 3px;
+    border-color: #E66916
   }
 
-  footer a:link {
+  nav div a:link {
     color: #3333CC;
     text-decoration: none;
   }
 
-  footer a:visited {
+  nav div a:visited {
     color: #7519D1;
     text-decoration: none;
+  }
+
+  footer {
+    color: #E66916
+
   }
