@@ -23,7 +23,7 @@
  @import url('https://fonts.googleapis.com/css?family=Calligraffitti');
 
 body { background-color: black;
-      font-family: "Arial", Gadget, sans-serif;
+      font-family: "Calligraffitti", Gadget, sans-serif;
       position: relative;
       margin-left: auto;
       margin-right: auto;
@@ -38,7 +38,7 @@ h1 {
   border-radius: 10px;
   margin: 50px;
   padding: 30px;
-  font-size:3em;
+  font-size:4em;
   text-align: center;
 
   }
@@ -48,10 +48,16 @@ article {
   border-radius: 10px;
   margin: 10px 50px;
   padding: 30px;
-  font-size:1.5em;
+  font-size:2em;
   text-align: center;
 
   }
+
+  #door {
+    background-color: black;
+    border-radius: 10px;
+  }
+
 
   nav {
     text-align: center
@@ -59,15 +65,18 @@ article {
   }
 
   nav div {
+    font-family: cursive;
+    font-weight: bold;
     background-color: #E68A00;
     border-radius: 10px;
-    margin: 25;
+    margin: 10px;
     padding: 15px;
-    font-size:1em;
+    font-size:1.25em;
     text-align: center;
     display: inline-block;
-    border: 3px;
-    border-color: #E66916
+    border: 6px;
+    border-color: #E66916;
+    border-style: outset;
   }
 
   nav div a:link {
@@ -80,7 +89,13 @@ article {
     text-decoration: none;
   }
 
+  nav div a:hover {
+    font-size: 150%;
+    text-decoration: none;
+  }
+
+
   footer {
-    color: #E66916
+    color: #E66916;
 
   }
