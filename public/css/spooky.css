@@ -56,21 +56,17 @@ article {
   #door {
     background-color: black;
     border-radius: 10px;
-    /*box-shadow: 0px 0px 5px 5px #E66916 inset;*/
   }
 
   .shadow {
-
     background-color: white;
     border-radius: 12px;
     box-shadow: 0px 0px 20px 20px #E66916 inset;
-
   }
 
 
   nav {
-    text-align: center
-
+    text-align: center;
   }
 
   nav div {
